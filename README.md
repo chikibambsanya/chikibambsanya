@@ -1,2 +1,0 @@
-# chikibambsanya
-Здрасте, Антон
