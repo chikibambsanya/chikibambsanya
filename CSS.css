@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: white;
+}
+header { 
+    background-color: rgb(49, 49, 49); 
+    width: auto; 
+    padding: 45px; 
+    color: fff;
+    font-weight: bold; 
+    vertical-align: center; 
+    text-align: center;
+}    
+.pod-shapkoi { 
+    background-color: rgb(59, 59, 59); 
+    text-align: center; 
+    width: 100%;
+    padding: 18px;
+} 
+.alal { 
+    display: flex;
+    justify-content: center; 
+    text-align: center; 
+    list-style: none; 
+    width: 100%;
+    font-weight: bold;
+} 
+.alal li { 
+    margin: 6px; 
+    width: 140px; 
+    background-color: rgb(41, 41, 41); 
+    padding: 8px; 
+    border-radius: 20px;
+} 
+.alal li:hover {
+    cursor: pointer;
+    background: rgb(31, 31, 31);
+    border-left: 2px solid #DCDCDC;
+    border-right: 2px solid #DCDCDC;
+    color: rgb(0, 183, 255)
+}
+
+.seredina {
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.eee {
+    border-radius: 20px;
+    width: 640px;
+    height: 360px;
+
+}
+
+/*ТУТ БЛИН ЦЕНТР АГА ДА*/
+
+.center {
+    
+}
+
+/* ТУТ БЛИН ЛЕВО АГА ДА*/
+
+.left {
+    width: 25%;
+    background-color: rgb(78, 78, 78);
+    float: left;
+    border-radius: 0 25px 25px 0;
+    height: 100%;
+}
+.menu {
+    width: 90%;
+    justify-items: none;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+ul {
+    list-style-type: none;
+}
+.title-menu {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(50, 60, 75);
+    padding: 5px;
+    border: 1px solid rgb(187, 187, 187);
+    border-bottom: 2px solid rgb(187, 187, 187);
+    border-radius: 15px 15px 0 0;
+    margin: 0 0 8px 0;
+}
+.spisok-menu li {
+    width: 90%;
+    background-color: rgb(66, 66, 66);
+    padding: 7px;
+    margin: 5px auto;
+    border: 1px solid rgb(31, 31, 31);
+    border-radius: 25px;
+}
+.spisok-menu li:hover {
+    cursor: pointer;
+    background: rgb(31, 31, 31);
+    border: 1.5px solid #DCDCDC;
+    color: rgb(0, 183, 255)
+}
+
+/* ТУТ БЛИН ПРАВО АГА ДА*/
+
+.right {
+    width: 25%;
+    background-color: rgb(78, 78, 78);
+    padding: 12px;
+    border-radius: 25px 0 0 25px;
+    float: right;
+    height: 100%;
+}
+.podpiska {
+    width: 90%;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: rgb(66, 66, 66);
+    margin: 10px auto;
+    padding: 1px;
+}
+.title-podpiska {
+    width: 90%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.imya {
+    font-size: 15px;
+    padding: 5px;
+    color:#000000;
+    border-radius: 10px;
+    margin: 4px;
+}
+.knopka-podpiska {
+    width: 70%;
+    background-color: rgb(228, 138, 3);
+    border-radius: 20px;
+    margin: 10px auto 7px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.knopka-podpiska:hover {
+    background-color: rgb(243, 166, 0);
+    cursor: pointer;
+}
+.reg {
+    width: 90%;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.title-vhod {
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px 20px 0 0;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.registr {
+    margin: 6px auto;
+    font-size: 15px;
+    padding: 5px;
+    color:#000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.reg p {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: rgb(58, 58, 58); 
+    width: 100%;
+    padding: 47px;
+    text-align: center;  
+    font-weight: bold;
+}
